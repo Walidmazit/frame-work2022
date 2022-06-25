@@ -10,11 +10,11 @@
     <parameter name="browserVersion" value="103"></parameter>
     <parameter name="url" value="https://www.ebay.com"></parameter>
 
-<!--    <test name="ebayhomeTest">-->
-<!--        <classes>-->
-<!--            <class name="eaby.ebayhomepage"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="ebayhomeTest">
+        <classes>
+            <class name="eaby.ebayhomepage"></class>
+        </classes>
+    </test>
 
 
 
@@ -25,58 +25,58 @@
     </test>
 
 
-<!--    <test name="ToysTest">-->
-<!--        <classes>-->
-<!--            <class name="eaby.ToysTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="ToysTest">
+        <classes>
+            <class name="eaby.ToysTest"></class>
+        </classes>
+    </test>
 
 
-<!--    <test name="ToysTest">-->
-<!--        <classes>-->
-<!--            <class name="eaby.ToysTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-
-
-<!--<test name="Test">-->
-<!--        <classes>-->
-<!--            <class name="eaby.JewerlyTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="SportingGodsTestTest">-->
-<!--        <classes>-->
-<!--            <class name="eaby.SportingGoodsTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="ToysTest">
+        <classes>
+            <class name="eaby.ToysTest"></class>
+        </classes>
+    </test>
 
 
 
 
-
-<!--        <test name="MotorPage ebay">-->
-<!--        <classes>-->
-<!--            <class name="eaby.MotorsItemsTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="homeGarden">-->
-<!--        <classes>-->
-<!--            <class name="eaby.HomeGardenTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
+<test name="Test">
+        <classes>
+            <class name="eaby.JewerlyTest"></class>
+        </classes>
+    </test>
 
 
-<!--    <test name="LoginPage ebay">-->
-<!--        <classes>-->
-<!--            <class name="eaby.LoginTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="SportingGodsTestTest">
+        <classes>
+            <class name="eaby.SportingGoodsTest"></class>
+        </classes>
+    </test>
+
+
+
+
+
+        <test name="MotorPage ebay">
+        <classes>
+            <class name="eaby.MotorsItemsTest"></class>
+        </classes>
+    </test>
+
+
+    <test name="homeGarden">
+        <classes>
+            <class name="eaby.HomeGardenTest"></class>
+        </classes>
+    </test>
+
+
+    <test name="LoginPage ebay">
+        <classes>
+            <class name="eaby.LoginTest"></class>
+        </classes>
+    </test>
 
 
 </suite>

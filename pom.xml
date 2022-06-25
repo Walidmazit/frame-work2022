@@ -130,7 +130,7 @@
                 <version>2.22.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>/Users/yaakoubmazit/Desktop/FinalFramework/src/test/resources/ebay-runner.xml</suiteXmlFile>
+                        <suiteXmlFile>/Users/yaakoubmazit/Desktop/FinalFrameworkwaid/src/test/resources/ebay-runner.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
@@ -138,3 +138,4 @@
     </build>
 
 </project>
+

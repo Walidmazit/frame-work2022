@@ -187,3 +187,7 @@
 21:44:04.437 EbayPages.ebayHomePage - TEst of log
 21:44:07.482 EbayPages.ebayHomePage - Women Clothing selected
 21:44:11.449 EbayPages.ClothingAccessoriesPage - Pants clicked
+23:53:26.374 eaby.ClothingAccessoriesTest - TEst is Processing
+23:53:26.874 EbayPages.ebayHomePage - TEst of log
+23:53:28.579 base.CommonAPI - Screenshot captured
+23:53:57.121 eaby.ClothingAccessoriesTest - TEst is Processing
