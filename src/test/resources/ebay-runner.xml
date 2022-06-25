@@ -32,11 +32,6 @@
     </test>
 
 
-    <test name="ToysTest">
-        <classes>
-            <class name="eaby.ToysTest"></class>
-        </classes>
-    </test>
 
 
 
