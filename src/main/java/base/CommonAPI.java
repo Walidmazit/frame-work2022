@@ -8,7 +8,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.ITestContext;
@@ -115,18 +117,18 @@ public class CommonAPI {
             }
         }else if (os.equalsIgnoreCase("mac")){
             if (browser.equalsIgnoreCase("chrome")){
-                System.setProperty("webdriver.chrome.driver", Utility.currentDir+"\\driver\\mac\\chromedriver");
+                System.setProperty("webdriver.chrome.driver", Utility.currentDir+"/driver/mac/chromedriver");
                 driver = new ChromeDriver();
             }else if (browser.equalsIgnoreCase("firefox")){
-                System.setProperty("webdriver.gecko.driver", Utility.currentDir+"\\driver\\mac\\geckodriver");
+                System.setProperty("webdriver.gecko.driver", Utility.currentDir+"/driver/mac/geckodriver");
                 driver = new FirefoxDriver();
             }
         }else if (os.equalsIgnoreCase("linux")){
             if (browser.equalsIgnoreCase("chrome")){
-                System.setProperty("webdriver.chrome.driver", Utility.currentDir+"\\driver\\linux\\chromedriver");
+                System.setProperty("webdriver.chrome.driver", Utility.currentDir+"/driver/mac/chromedriver");
                 driver = new ChromeDriver();
             }else if (browser.equalsIgnoreCase("firefox")){
-                System.setProperty("webdriver.gecko.driver", Utility.currentDir+"\\driver\\linux\\geckodriver");
+                System.setProperty("webdriver.gecko.driver", Utility.currentDir+"/driver/linux/geckodriver");
                 driver = new FirefoxDriver();
             }
         }
@@ -297,5 +299,8 @@ public class CommonAPI {
             LOG.info("Exception while taking screenshot "+e.getMessage());
         }
     }
-
+    public void ExplicitlyWaitForNewPageToLoad(WebDriver driver,String NewPageTitle){
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        wait.until(ExpectedConditions.titleIs(NewPageTitle));
+    }
 }

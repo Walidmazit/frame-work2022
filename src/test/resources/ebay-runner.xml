@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="eaby smoke ebay">
+    <parameter name="useCloudEnv" value="false"></parameter>
+    <parameter name="envName" value="browserstack"></parameter>
+    <parameter name="os" value="linux"></parameter>
+    <parameter name="osVersion" value="11"></parameter>
+    <parameter name="browserName" value="firefox"></parameter>
+    <parameter name="browserVersion" value="103"></parameter>
+    <parameter name="url" value="https://www.ebay.com"></parameter>
+
+<!--    <test name="ebayhomeTest">-->
+<!--        <classes>-->
+<!--            <class name="eaby.ebayhomepage"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+
+    <test name="SearchTest">
+        <classes>
+            <class name="eaby.ClothingAccessoriesTest"></class>
+        </classes>
+    </test>
+
+
+<!--    <test name="ToysTest">-->
+<!--        <classes>-->
+<!--            <class name="eaby.ToysTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+<!--    <test name="ToysTest">-->
+<!--        <classes>-->
+<!--            <class name="eaby.ToysTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+
+
+<!--<test name="Test">-->
+<!--        <classes>-->
+<!--            <class name="eaby.JewerlyTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+<!--    <test name="SportingGodsTestTest">-->
+<!--        <classes>-->
+<!--            <class name="eaby.SportingGoodsTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+
+
+
+<!--        <test name="MotorPage ebay">-->
+<!--        <classes>-->
+<!--            <class name="eaby.MotorsItemsTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+<!--    <test name="homeGarden">-->
+<!--        <classes>-->
+<!--            <class name="eaby.HomeGardenTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+<!--    <test name="LoginPage ebay">-->
+<!--        <classes>-->
+<!--            <class name="eaby.LoginTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+</suite>
